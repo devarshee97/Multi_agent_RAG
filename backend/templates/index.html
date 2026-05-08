@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RAG App</title>
+</head>
+
+<body>
+
+    <h1>Document QA</h1>
+
+    <form
+        action="/query"
+        method="post"
+        enctype="multipart/form-data"
+    >
+
+        <label>Upload Documents:</label>
+        <br><br>
+
+        <input
+            type="file"
+            name="files"
+            multiple
+        >
+
+        <br><br>
+
+        <label>Question:</label>
+        <br><br>
+
+        <textarea
+            name="question"
+            rows="5"
+            cols="60"
+        ></textarea>
+
+        <br><br>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+</body>
+
+</html>
