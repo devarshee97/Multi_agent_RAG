@@ -9,7 +9,8 @@ chromadb
 openai
 langchain_community
 langchain_openai
-python-dotenvrequests
+python-dotenv
+requests
 pydantic
 pysqlite3-binary
 python-multipart
